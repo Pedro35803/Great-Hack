@@ -1,16 +1,15 @@
 # <h1 align="center">Great-Hack</h1>
 
-<!--<p align="center">
-  <a src="https://github.com/Pedro35803/Site-Sobre-GMT">
+<div align="center">
+  <a href="https://github.com/Pedro35803/Site-Sobre-GMT">
     <img src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" alt="Version 1.0.0"/>
+    <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!"/>
   </a>
   
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!"/>
-  
-  <a href="https://github.com/Pedro35803/LICENSE">
+  <a href="https://github.com/Pedro35803/Great-Hack/blob/main/LICENSE">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank"/>
   </a>
-</p>-->
+</div>
 
 <p align="center">Facebook e Privacidade</p>
 
@@ -18,7 +17,7 @@
 # 📌 Sumário
 * [Sobre](#Sobre)
 * [Linguagens](#linguagens)
-<!--* [Licença](#Licença)-->
+* [Licença](#Licença)
 
 ---
 <a id="Sobre"></a>
@@ -38,21 +37,15 @@
 # 💻 Linguagens
 Esta atividade foi realizada usando as seguintes linguagens:
 
-
 * [HTML5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 * [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 <!--* [JavaScript](https://www.javascript.com/)-->
 
 ---
-
-<!--
 <a id="Licença"></a>
 # 📕 Licença
 
-<p align="center">
-  Lançado em <b>11 de Setembro de 2019 <a href="https://github.com/Pedro35803/">📕 License</a></b>
-</p>
+Esse Repositorio está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/Pedro35803/Great-Hack/blob/main/LICENSE) para mais detalhes.
 
-Este projeto está sob a [MIT license](https://github.com/Pedro35803/). -->
-
+---
 ### <h3 align="center"> by [Pedro35803 👨‍💻](https://github.com/Pedro35803) </h3>
