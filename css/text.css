@@ -21,12 +21,10 @@ h1, h2, p, a {
 
 .paragraph--medium {
     min-width: 300px;
-    max-width: 490px;
 }
 
-.container-text {
-    align-items: center;
-    justify-content: space-between;
+.paragraph--small {
+    min-width: 200px;
 }
 
 .text--size-32px {
