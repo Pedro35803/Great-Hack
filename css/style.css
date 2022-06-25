@@ -1,3 +1,5 @@
+@import url(text.css);
+
 :root {
     --cor1: #474740;
     --cor2: #f9f9f9;
@@ -40,45 +42,9 @@ body {
     margin-right: 25px;
 }
 
-.container-text {
-    align-items: center;
-    justify-content: space-between;
-}
-
-.container-text__paragraph {
-    text-align: justify;
-    text-indent: 40px;
-    line-height: 1.25em;
-
-    min-width: 300px;
-    max-width: 490px;
-    margin: 0px 25px;
-}
-
 .container-text__img {
     min-width: 50%;
     max-width: 100%;
-}
-
-.title {
-    text-align: center;
-    color: var(--cor3);
-    margin: 0px 25px 30px 25px;
-}
-
-.text--size-32px {
-    font-size: 32px;
-}
-
-.margin_x-50px {
-    margin: 50px 0px;
-}
-
-.conclusion__paragraph {
-    text-align: justify;
-    text-indent: 40px;
-    line-height: 1.25em;
-    margin: 0px 25px;
 }
 
 .link {
@@ -93,7 +59,6 @@ body {
     
     width: 190px;
     padding: 13px 0px;
-    margin: 15px 25px 0px;
     display: inline-block;
 }
 
@@ -103,12 +68,24 @@ body {
     transition: ease-in all 0.5s;
 }
 
+.margin_x-50px {
+    margin: 50px 0px;
+}
+
+.margin_x-15px {
+    margin: 15px 0px;
+}
+
+.margin_b-20px {
+    margin-bottom: 20px;
+}
+
 .footer {
     background-color: var(--cor3);
     color: var(--cor2);
 
     height: 50px;
-    margin-top: 2%;
+    margin-top: 10px;
 
     display: flex;
     justify-content: center;
@@ -119,17 +96,23 @@ body {
     .container-text {
         flex-wrap: wrap;
     }
+
     .title {
         font-size: 32px;
         text-align: center;
         color: var(--cor3);
         margin-bottom: 30px;
     }
-    .container-text__paragraph {
+
+    .paragraph--medium {
         max-width: 750px;
     }
 
     .container-text__img {
         margin: 40px auto;
+    }
+
+    .img--small {
+        display: none;
     }
 }

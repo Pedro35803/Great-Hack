@@ -1,0 +1,34 @@
+:root {
+    --cor1: #474740;
+    --cor2: #f9f9f9;
+    --cor3: #1e2426;
+}
+
+h1, h2, p, a {
+    margin: 0px 25px;
+}
+
+.title {
+    text-align: center;
+    color: var(--cor3);
+}
+
+.paragraph {
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.25em;
+}
+
+.paragraph--medium {
+    min-width: 300px;
+    max-width: 490px;
+}
+
+.container-text {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text--size-32px {
+    font-size: 32px;
+}
