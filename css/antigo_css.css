@@ -1,27 +1,14 @@
-:root {
-    /* Paleta de Cores */
-    --cor1: #474740;
-    --cor2: #f9f9f9;
-    --cor3: #1e2426;
-}
-
-body {
-    background-color: var(--cor1);
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 5% 10%;
-}
-
 figure {
     margin: 0%;
 }
-    
+
 .container {
     background-color: var(--cor2);
     box-shadow: 0px 0px 10px black;
 
     max-width: 1080px;
     min-width: 320px;
-    margin: auto;
+    margin: 5% 10%;
 }
 
 .container h1, h2 {
@@ -113,11 +100,3 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
-/* @media (max-width: 1225px) {
-    .noticias {
-        display: flex;
-        color: #ff0000;
-        flex-wrap: wrap;
-    }
-} */
