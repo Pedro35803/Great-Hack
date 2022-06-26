@@ -1,8 +1,4 @@
-:root {
-    --cor1: #474740;
-    --cor2: #f9f9f9;
-    --cor3: #1e2426;
-}
+@import url(global_config.css);
 
 h1, h2, p, a {
     margin: 0px 25px;

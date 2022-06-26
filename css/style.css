@@ -1,17 +1,5 @@
+@import url(global_config.css);
 @import url(text.css);
-
-:root {
-    --cor1: #474740;
-    --cor2: #f9f9f9;
-    --cor3: #1e2426;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    border: 0;
-    padding: 0;
-}
 
 body {
     background-color: var(--cor1);
@@ -46,6 +34,15 @@ body {
     height: 42.5px;
 }
 
+.container-footer {
+    background-color: var(--cor3);
+    color: var(--cor2);
+    height: 50px;
+
+    align-items: center;
+    justify-content: center;
+}
+
 .img-primary {
     min-width: 50%;
     max-width: 100%;
@@ -76,10 +73,6 @@ body {
     margin: 50px 0px;
 }
 
-.margin_x-40px {
-    margin: 40px 0px;
-}
-
 .margin_x-30px {
     margin: 30px 0px;
 }
@@ -88,30 +81,8 @@ body {
     margin: 25px 0px;
 }
 
-.margin_x-15px {
-    margin: 15px 0px;
-}
-
-.margin_t-20px {
-    margin-top: 20px;
-}
-
 .margin_b-20px {
     margin-bottom: 20px;
-}
-
-.margin_b-25px {
-    margin-bottom: 25px;
-}
-
-.footer {
-    background-color: var(--cor3);
-    color: var(--cor2);
-    height: 50px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 @media (max-width: 1250px) {
@@ -126,12 +97,6 @@ body {
 @media (max-width: 975px) {
     .container-text {
         flex-wrap: wrap-reverse;
-    }
-
-    .title {
-        font-size: 32px;
-        text-align: center;
-        color: var(--cor3);
     }
 
     .img-primary {
