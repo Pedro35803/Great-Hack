@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/Pedro35803/Site-Sobre-GMT">
-    <img src="https://img.shields.io/badge/version-1.1.0-blue.svg?cacheSeconds=2592000" alt="Version 1.0.0"/>
+    <img src="https://img.shields.io/badge/version-2.0.0-blue.svg?cacheSeconds=2592000" alt="Version 2.0.0"/>
     <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=7159c1&labelColor=000000" alt="PRs welcome!"/>
   </a>
   
